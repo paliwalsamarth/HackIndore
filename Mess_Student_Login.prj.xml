@@ -1,0 +1,990 @@
+<TaskerData sr="" dvi="1" tv="5.1">
+	<dmetric>1080.0,2030.0</dmetric>
+	<Project sr="proj0" ve="2">
+		<cdate>1538176083009</cdate>
+		<name>Mess Student Login</name>
+		<scenes>Login,Select_Student,Start,Load,Select_Admin,First</scenes>
+		<tids>12,17,8,10,20,18,11,22,2,3,19,21,23,7,5</tids>
+		<Kid sr="Kid">
+			<launchID>8</launchID>
+			<pkg>com.mess.student.login</pkg>
+			<vnme>2.0</vnme>
+			<vnum>2</vnum>
+		</Kid>
+		<Img sr="icon" ve="2">
+			<nme>katuberling</nme>
+			<pkg>net.dinglisch.android.ipack.crystalmd</pkg>
+		</Img>
+	</Project>
+	<Scene sr="sceneFirst">
+		<cdate>1538157408931</cdate>
+		<edate>1538198885743</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2030</heightPort>
+		<nme>First</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<ImageElement sr="elements0" ve="2">
+			<flags>6</flags>
+			<geom>0,0,1080,2030,0,0,1077,2027</geom>
+			<Str sr="arg0" ve="3">Image11</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.providers.media.documents/document/image%3A18069</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>77,52,900,250,77,52,900,250</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Enter your google email id</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#93000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<EditTextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>27,327,1025,150,27,327,1025,150</geom>
+			<valueselectedTask>20</valueselectedTask>
+			<Str sr="arg0" ve="3">TextEdit1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="80"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#80FFF9F9</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<EditTextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>27,1602,1028,150,27,327,1025,150</geom>
+			<valueselectedTask>19</valueselectedTask>
+			<Str sr="arg0" ve="3">TextEdit11</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="7"/>
+			<Int sr="arg8" val="10"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#80FFF9F9</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<TextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>77,602,903,200,77,52,900,250</geom>
+			<Str sr="arg0" ve="3">Text11</Str>
+			<Str sr="arg1" ve="3">Your username is "admin"</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FFFF0000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>77,952,903,200,77,52,900,250</geom>
+			<Str sr="arg0" ve="3">Text12</Str>
+			<Str sr="arg1" ve="3">Choose password</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#93000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<EditTextElement sr="elements6" ve="3">
+			<flags>4</flags>
+			<geom>27,1177,1028,150,27,327,1025,150</geom>
+			<valueselectedTask>17</valueselectedTask>
+			<Str sr="arg0" ve="3">TextEdit111</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="7"/>
+			<Int sr="arg8" val="10"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#80FFF9F9</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<TextElement sr="elements7" ve="3">
+			<flags>4</flags>
+			<geom>102,1377,903,200,77,52,900,250</geom>
+			<Str sr="arg0" ve="3">Text121</Str>
+			<Str sr="arg1" ve="3">Confirm password</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#93000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<ButtonElement sr="elements8" ve="3">
+			<clickTask>18</clickTask>
+			<flags>4</flags>
+			<geom>277,1802,499,228,627,1852,375,178</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3">Done</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#00000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">First</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneLoad">
+		<cdate>1538181906789</cdate>
+		<edate>1538194364633</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2030</heightPort>
+		<nme>Load</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<WebElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>4,3,1076,2027,0,0,1077,2030</geom>
+			<Str sr="arg0" ve="3">WebView1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">https://docs.google.com/forms/d/1_ZIMjocQx8Ot8NIW77JyPV7U1MK954d_kQ7FG3qSbS4/edit</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</WebElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>0,0,1076,227,0,0,1076,227</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FFBF0000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<ImageElement sr="elements2" ve="2">
+			<flags>4</flags>
+			<geom>1027,227,53,100,1027,227,52,100</geom>
+			<Str sr="arg0" ve="3">Image1</Str>
+			<Img sr="arg1" ve="2"/>
+			<Int sr="arg2" val="255"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FFBF0000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<ImageElement sr="elements3" ve="2">
+			<flags>4</flags>
+			<geom>0,227,52,102,0,227,52,102</geom>
+			<Str sr="arg0" ve="3">Image11</Str>
+			<Img sr="arg1" ve="2"/>
+			<Int sr="arg2" val="255"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FFBF0000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+	</Scene>
+	<Scene sr="sceneLogin">
+		<cdate>1538157408931</cdate>
+		<edate>1538198928011</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2030</heightPort>
+		<nme>Login</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<ImageElement sr="elements0" ve="2">
+			<flags>6</flags>
+			<geom>0,0,1080,2030,0,0,1077,2027</geom>
+			<Str sr="arg0" ve="3">Image11</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.providers.media.documents/document/image%3A18069</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>0,402,1076,225,77,52,900,250</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Enter your username</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#93000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<EditTextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>0,652,1080,150,27,327,1025,150</geom>
+			<valueselectedTask>23</valueselectedTask>
+			<Str sr="arg0" ve="3">TextEdit1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="80"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#80FFF9F9</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>0,852,1076,200,77,52,900,250</geom>
+			<Str sr="arg0" ve="3">Text12</Str>
+			<Str sr="arg1" ve="3">Password</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#93000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<EditTextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>0,1102,1076,150,27,327,1025,150</geom>
+			<valueselectedTask>21</valueselectedTask>
+			<Str sr="arg0" ve="3">TextEdit111</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="7"/>
+			<Int sr="arg8" val="10"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#80FFF9F9</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<ButtonElement sr="elements5" ve="3">
+			<clickTask>22</clickTask>
+			<flags>4</flags>
+			<geom>202,1327,674,200,627,1852,375,178</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3">Done</Str>
+			<Int sr="arg2" val="30"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#00B1AE46</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">First</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneSelect_Admin">
+		<cdate>1538159265961</cdate>
+		<edate>1538198946609</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2030</heightPort>
+		<nme>Select_Admin</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<ImageElement sr="elements0" ve="2">
+			<flags>6</flags>
+			<geom>0,0,1080,2030,0,0,1077,2027</geom>
+			<Str sr="arg0" ve="3">Image11</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.providers.media.documents/document/image%3A18069</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<TextElement sr="elements1" ve="3">
+			<clickTask>3</clickTask>
+			<flags>4</flags>
+			<geom>202,977,675,275,202,977,675,250</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Make Today's Menu</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#80000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements2" ve="3">
+			<clickTask>5</clickTask>
+			<flags>4</flags>
+			<geom>202,1302,674,250,202,1302,674,227</geom>
+			<Str sr="arg0" ve="3">Text11</Str>
+			<Str sr="arg1" ve="3">Make Urgent Notice</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#80000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#00000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Select</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneSelect_Student">
+		<cdate>1538159265961</cdate>
+		<edate>1538194378516</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2030</heightPort>
+		<nme>Select_Student</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<ImageElement sr="elements0" ve="2">
+			<flags>6</flags>
+			<geom>0,0,1080,2030,0,0,1077,2027</geom>
+			<Str sr="arg0" ve="3">Image11</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.providers.media.documents/document/image%3A18045</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<TextElement sr="elements1" ve="3">
+			<clickTask>11</clickTask>
+			<flags>4</flags>
+			<geom>77,577,899,350,77,577,899,350</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Book Meal for today</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#B3000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements2" ve="3">
+			<clickTask>12</clickTask>
+			<flags>4</flags>
+			<geom>77,977,899,325,77,977,899,325</geom>
+			<Str sr="arg0" ve="3">Text11</Str>
+			<Str sr="arg1" ve="3">Check for Notice</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#B8000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#BA000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Select</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneStart">
+		<cdate>1538177050772</cdate>
+		<edate>1538194358780</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2030</heightPort>
+		<nme>Start</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<ImageElement sr="elements0" ve="2">
+			<flags>6</flags>
+			<geom>0,0,1080,2030,0,0,1080,2030</geom>
+			<Str sr="arg0" ve="3">Image1</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.providers.media.documents/document/image%3A18045</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<TextElement sr="elements1" ve="3">
+			<clickTask>10</clickTask>
+			<flags>4</flags>
+			<geom>0,777,402,502,0,777,402,502</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Login</Str>
+			<Int sr="arg2" val="30"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#9F000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#33FFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Start</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task10">
+		<cdate>1538190925899</cdate>
+		<edate>1538190925899</edate>
+		<id>10</id>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Select_Student</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="2"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task11">
+		<cdate>1538191069053</cdate>
+		<edate>1538191069053</edate>
+		<id>11</id>
+		<Action sr="act0" ve="7">
+			<code>104</code>
+			<Str sr="arg0" ve="3">https://docs.google.com/forms/d/1aR5nRhGm2KeufPECqiaAheZfMkOE51an76JW2Dkbvmk/edit</Str>
+		</Action>
+	</Task>
+	<Task sr="task12">
+		<cdate>1538191069053</cdate>
+		<edate>1538191069053</edate>
+		<id>12</id>
+		<Action sr="act0" ve="7">
+			<code>104</code>
+			<Str sr="arg0" ve="3">https://docs.google.com/forms/d/1_ZIMjocQx8Ot8NIW77JyPV7U1MK954d_kQ7FG3qSbS4/edit?ts=5baec5d4</Str>
+		</Action>
+	</Task>
+	<Task sr="task17">
+		<cdate>1538157475510</cdate>
+		<edate>1538157475510</edate>
+		<id>17</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Text1</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task18">
+		<cdate>1538158955326</cdate>
+		<edate>1538158955326</edate>
+		<id>18</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Text1</lhs>
+					<op>2</op>
+					<rhs>%Text2</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Pass</Str>
+			<Str sr="arg1" ve="3">%Text2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Launch</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Destroy Scene_Admin</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Login</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="2"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>125</code>
+			<Str sr="arg0" ve="3">sarthak.kale12@gmail.com</Str>
+			<Str sr="arg1" ve="3">Join as Colaberator</Str>
+			<Str sr="arg2" ve="3">%Email</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">Please check the password.</Str>
+			<Str sr="arg1" ve="3">default:default</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task19">
+		<cdate>1538157475510</cdate>
+		<edate>1538157475510</edate>
+		<id>19</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Text2</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task2">
+		<cdate>1538170272337</cdate>
+		<edate>1538178066120</edate>
+		<id>2</id>
+		<nme>Destroy Scene_Admin</nme>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">First</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Select_Admin</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Login</Str>
+		</Action>
+	</Task>
+	<Task sr="task20">
+		<cdate>1538157475510</cdate>
+		<edate>1538157475510</edate>
+		<id>20</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Email</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task21">
+		<cdate>1538157475510</cdate>
+		<edate>1538157475510</edate>
+		<id>21</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task22">
+		<cdate>1538158955326</cdate>
+		<edate>1538158955326</edate>
+		<id>22</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%text</lhs>
+					<op>2</op>
+					<rhs>%Pass</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%username</lhs>
+					<op>2</op>
+					<rhs>admin</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Select_Admin</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="2"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">Please check the details entered.</Str>
+			<Str sr="arg1" ve="3">default:default</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task23">
+		<cdate>1538157475510</cdate>
+		<edate>1538157475510</edate>
+		<id>23</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%username</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task3">
+		<cdate>1538189382316</cdate>
+		<edate>1538189382316</edate>
+		<id>3</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>104</code>
+			<Str sr="arg0" ve="3">https://docs.google.com/forms/d/1aR5nRhGm2KeufPECqiaAheZfMkOE51an76JW2Dkbvmk/edit</Str>
+		</Action>
+	</Task>
+	<Task sr="task5">
+		<cdate>1538189531072</cdate>
+		<edate>1538189531072</edate>
+		<id>5</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>104</code>
+			<Str sr="arg0" ve="3">https://docs.google.com/forms/d/1_ZIMjocQx8Ot8NIW77JyPV7U1MK954d_kQ7FG3qSbS4/edit?ts=5baec5d4</Str>
+		</Action>
+	</Task>
+	<Task sr="task7">
+		<cdate>1538170272337</cdate>
+		<edate>1538179597186</edate>
+		<id>7</id>
+		<nme>Destroy Scene_Student</nme>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">First</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Select_Student</Str>
+		</Action>
+	</Task>
+	<Task sr="task8">
+		<cdate>1538163454370</cdate>
+		<edate>1538190340542</edate>
+		<id>8</id>
+		<nme>Launch_Student</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Destroy Scene_Student</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Start</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="2"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>
